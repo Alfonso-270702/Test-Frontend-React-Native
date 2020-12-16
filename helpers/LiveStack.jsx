@@ -7,7 +7,12 @@ const LiveStackScreen = createStackNavigator()
 export default function LiveStack() {
     return (
         <LiveStackScreen.Navigator>
-            <LiveStackScreen.Screen name="Live" component={Live} />
+            <LiveStackScreen.Screen name="Live" component={Live} options={{
+                headerStyle:{
+                    backgroundColor: '#51adcf'
+                },
+                headerTintColor: '#fff'
+            }} />
         </LiveStackScreen.Navigator>
     )
 }

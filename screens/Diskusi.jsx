@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet, Button } from 'react-native'
+import { View, StyleSheet, Button } from 'react-native'
 
 export default function Diskusi({ navigation }) {
     return (
@@ -15,8 +15,8 @@ export default function Diskusi({ navigation }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#d9e4dd',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'center'
     }
 })

@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect, createContext } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Home, Profile, Live } from "./screens";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import store from "./store";
 import { Provider } from "react-redux";

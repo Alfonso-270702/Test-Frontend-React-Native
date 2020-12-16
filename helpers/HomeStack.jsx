@@ -7,7 +7,12 @@ const HomeStackScreen = createStackNavigator()
 export default function HomeStack() {
     return (
         <HomeStackScreen.Navigator>
-            <HomeStackScreen.Screen name="Home" component={Home} />
+            <HomeStackScreen.Screen name="Home" component={Home} options={{
+                headerStyle:{
+                    backgroundColor: '#51adcf'
+                },
+                headerTintColor: '#fff'
+            }} />
         </HomeStackScreen.Navigator>
     )
 }

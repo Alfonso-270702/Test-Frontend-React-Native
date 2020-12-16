@@ -9,14 +9,14 @@ export default function DiskusiStack() {
         <DiskusiStackScreen.Navigator >
             <DiskusiStackScreen.Screen name="Diskusi" component={Diskusi} options={{
                 headerStyle:{
-                    backgroundColor: '#0e49b5'
+                    backgroundColor: '#51adcf'
                 },
                 headerTintColor: '#fff'
             }} />
             <DiskusiStackScreen.Screen name="Buat Group" component={CreateGroup}
              options={{
                 headerStyle:{
-                    backgroundColor: '#0e49b5'
+                    backgroundColor: '#51adcf'
                 },
                 headerTintColor: '#fff'
             }} />
